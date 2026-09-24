@@ -1,5 +1,5 @@
 ````markdown
-# 🏎️ F1 Grand Prix Prediction Model
+ 🏎️ F1 Grand Prix Prediction Model
 
 A Formula 1 race prediction project built with **Python, FastF1, Pandas, NumPy, and Scikit-learn**.
 
@@ -7,7 +7,7 @@ The project collects historical Formula 1 race and qualifying data, engineers dr
 
 ---
 
-## 📌 Project Overview
+ 📌 Project Overview
 
 This project uses historical Formula 1 data from FastF1 to build a machine-learning model capable of predicting race finishing positions.
 
