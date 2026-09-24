@@ -27,14 +27,14 @@ The model is trained using historical race results and then used to generate a p
 
 ## 🛠️ Technologies Used
 
-- **Python**
-- **FastF1** — Formula 1 data collection
-- **Pandas** — Data manipulation
-- **NumPy** — Numerical operations
-- **Scikit-learn** — Machine learning
-- **Gradient Boosting Regressor** — Prediction model
-- **Google Colab** — Development environment
-- **GitHub** — Version control and project storage
+- Python
+- FastF1 — Formula 1 data collection
+- Pandas — Data manipulation
+- NumPy — Numerical operations
+- Scikit-learn — Machine learning
+- Gradient Boosting Regressor — Prediction model
+- Google Colab — Development environment
+- GitHub — Version control and project storage
 
 ---
 
@@ -329,7 +329,3 @@ while your manual prediction cell uses:
 year = 2026
 event_name = "Azerbaijan Grand Prix"
 ```
-
-So if your goal is specifically **predicting the 2026 Azerbaijan Grand Prix**, I'd change the `NEXT_RACE` configuration to 2026 as well, rather than having two different target years. The current source explicitly labels 2023 as a historical demonstration race. 
-
-You can create a file called **`README.md`** in your GitHub repository and paste the README above directly into it.
