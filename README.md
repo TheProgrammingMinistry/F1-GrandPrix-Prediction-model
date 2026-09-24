@@ -1,5 +1,5 @@
 ````markdown
- 🏎️ F1 Grand Prix Prediction Model
+F1 Grand Prix Prediction Model
 
 A Formula 1 race prediction project built with **Python, FastF1, Pandas, NumPy, and Scikit-learn**.
 
@@ -7,7 +7,7 @@ The project collects historical Formula 1 race and qualifying data, engineers dr
 
 ---
 
- 📌 Project Overview
+Project Overview
 
 This project uses historical Formula 1 data from FastF1 to build a machine-learning model capable of predicting race finishing positions.
 
@@ -25,7 +25,7 @@ The model is trained using historical race results and then used to generate a p
 
 ---
 
-🛠️ Technologies Used
+Technologies Used
 
 - Python
 - FastF1 — Formula 1 data collection
@@ -38,7 +38,7 @@ The model is trained using historical race results and then used to generate a p
 
 ---
 
-📊 Data Collection
+Data Collection
 
 Formula 1 race and qualifying data is collected using the FastF1 library.
 
@@ -67,7 +67,7 @@ f1_cache/
 
 ---
 
-🧠 Feature Engineering
+Feature Engineering
 
 The model uses historical information to create predictive features.
 
@@ -87,7 +87,7 @@ The feature engineering process is designed to use information from races that o
 
 ---
 
-🤖 Machine Learning Model
+Machine Learning Model
 
 The project uses a:
 
@@ -117,7 +117,7 @@ The model therefore treats race finishing position as a regression problem.
 
 ---
 
-🧪 Training and Evaluation
+Training and Evaluation
 
 Instead of randomly splitting the data, the project uses a **chronological train/test split**.
 
@@ -138,7 +138,7 @@ The MAE represents the average number of finishing positions by which the predic
 
 ---
 
-🏁 Making a Race Prediction
+Making a Race Prediction
 
 After the dataset has been built and the model trained, a target race can be selected.
 
@@ -173,7 +173,7 @@ ALO       Aston Martin  ...
 
 ---
 
-⚠️ Grid Position
+Grid Position
 
 Actual grid position is not known until qualifying has taken place.
 
@@ -183,7 +183,7 @@ After qualifying, the model can be run again using the actual grid positions to 
 
 ---
 
-🚀 Running the Project
+Running the Project
 
 ### 1. Install FastF1
 
@@ -231,7 +231,7 @@ predicted_order[
 
 ---
 
-📁 Project Structure
+Project Structure
 
 ```text
 F1-GrandPrix-Prediction-model/
@@ -246,7 +246,7 @@ F1-GrandPrix-Prediction-model/
 
 ---
 
-📈 Feature Importance
+Feature Importance
 
 After training, the model calculates the relative importance of the input features:
 
@@ -267,7 +267,7 @@ This helps explore which historical factors contributed most to the model's pred
 
 ---
 
-⚠️ Limitations
+Limitations
 
 This project is intended as a machine-learning experiment and should not be treated as an authoritative prediction of Formula 1 race results.
 
@@ -283,7 +283,7 @@ Important limitations include:
 
 ---
 
-🔮 Future Improvements
+Future Improvements
 
 Potential improvements include:
 
@@ -302,7 +302,7 @@ Potential improvements include:
 
 ---
 
-👨‍💻 Project
+Project
 
 **F1 Grand Prix Prediction Model**
 
